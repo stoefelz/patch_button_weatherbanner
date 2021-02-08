@@ -13,7 +13,7 @@ diff -ur a/usr/lib/qt5/qml/Sailfish/Weather/WeatherBanner.qml	 b/usr/lib/qt5/qml
 +            width: parent.width
 +            height: Theme.itemSizeSmall
 +            anchors { right: parent.right; rightMargin: Theme.horizontalPageMargin }
-+            enabled: savedWeathersModel.currentWeather && savedWeathersModel.currentWeather.populated && !_error && expanded
++            enabled: savedWeathersModel.currentWeather && savedWeathersModel.currentWeather.populated && expanded
 +        
          Row {
              id: row
